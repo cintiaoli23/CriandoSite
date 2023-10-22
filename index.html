@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Site</title>
+    <style>
+        body{
+            background-color:rgb(238, 237, 237);
+        }
+        header {
+            background: url(imagescapa.jpeg) no-repeat;
+            background-size:cover;
+            background-position: center center;
+            padding: 300px 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+        h1 {
+            margin-top: 100px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+         }
+         p{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+         }
+         .texto{
+            color: black;
+         }
+      
+        .fotos {
+          text-align: center;
+        }
+
+        .fotos a {
+          display: inline-block;
+          margin: 10px;
+          position: relative;
+        }
+
+        .fotos img {
+         max-width: 100%;
+         height: auto;
+        }
+
+        .image-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 32px;
+        text-align: center;
+        }
+
+        hr {
+        border: 0; 
+        height: 3px; 
+        background-color: #333; 
+        margin: 30px 0; 
+        } 
+
+        
+        nav {
+        background-color: #444;
+         text-align: center;
+        }
+
+        nav a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        }
+    
+        nav a:hover {
+        background-color: #555;
+        }
+
+/* Estilizando o conteúdo principal (seções e texto) */
+        main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+        section {
+        margin-bottom: 20px;
+        }
+        form{
+            margin:30 px;
+            
+        }
+
+        label, input, textarea{
+            display: block;
+            margin-bottom: 15px;}
+
+        .container {
+            display: flex; 
+            justify-content: space-between;}
+        .contato {
+            flex: 1;}
+        .formulario {
+            flex: 2;
+            display: flex;
+            margin-left: 500px;
+        }
+        footer {
+        background-color:rgb(238, 237, 237) ;
+        text-align: center;
+        padding: 10px 0;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1> Sandra Araujo</h1>
+        <p>Fotógrafa</p>
+        
+        
+    </header>
+    <section>
+        <div class="fotos">
+            <!-- Imagem de fundo e botão existente -->
+        
+            <div class="imagen-links">
+                <a href="#about">
+                    <img src="imagem5.avif" alt="Sobre">
+                    <span class="image-text">Sobre</span>
+                </a>
+                <a href="#galeria">
+                    <img src="imagem6.jpeg" alt="Galeria">
+                    <span class="image-text">Galeria</span>
+                </a>
+                <a href="#Depoimentos">
+                    <img src="imagem7.webp" alt="Depoimentos">
+                    <span class="image-text">Depoimentos</span>
+                </a>
+                <a href="#Contato">
+                    <img src="imagem8.jpeg" alt="Contato">
+                    <span class="image-text">Contato</span>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#Depoimentos">Depoimentos</a>
+        <a href="#Contato">Contato</a>
+    </nav>
+
+
+    <section id="about">
+        <h2>Sobre me </h2>
+        <p class="texto">Antes de qualquer coisa, eu sou um cara que acredita no amor. E isso faz toda a diferença na hora de registrar emoções, carinho e afeto.
+            Sou casada, que além de me inspirar, enriquece meu olhar artístico com sua sensibilidade pra vida.<br>
+            Pra quem é gateiro como eu, importante mencionar nossos filhos , que são  a Roberta e o Pedro. Já fui designer gráfico e me descobri na fotografia há mais de 11 anos.
+            Por isso, cada experiência de vida me qualificou para ser fotógrafo de casamento, ou melhor, 
+            do seu casamento.
+        </p>
+    </section>
+    <hr>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="fotos">
+            <div class="imagen-links"> 
+                <a href="Fabiana&Ricardo.html" target="_self">
+                <img src="galeria2.jpeg" alt="Fabiana&Ricardo">
+                <span class="image-text">Fabiana&Ricardo</span>
+            </a>
+            <a href="Laura&Jose.html" target="_self">
+            <img src="galeria5.jpeg" alt="Laura&Jose">
+            <span class="image-text">Laura&Jose</span>
+            </a>
+           </div>
+        </div>
+
+    
+    </section>
+    <hr>
+
+    <section id="Depoimentos">
+        <h2>Depoimentos da Fabiana e Ricardo</h2>
+        <p class="texto">Sandra, sempre olhava seu blog e admirava cada trabaho seu e, mesmo quando ainda nem pensava em casamento, eu dizia para mim mesma: um dia esse será a fotógrafa do meu casamento! Deus foi tão bom que permitiu que isso acontecesse pois Ele nos recompensa quando somos fiéis a Ele!<br>
+
+            Agora olhando as fotos, parece até meio surreal. A sensação é indescritível! Parabéns pelas fotos que estão lindas como sempre! Parabéns pelo modo como você e a luz interagem entre si. Vocês foram feitos um para o outro! É muito gostoso ver a paixão que você tem pelo seu trabalho. Quando você está fotografando, dirigindo alguma foto, é prazeroso ver o modo como você emerge naquela cena, naquele olhar, naquela luz e naquele momento!<br>
+            
+            Mas além de ser uma fotógrafa incrível também é um ser humano admirável. Toda a minha família elogiou muito você. Você era sem duvida parte the família naquele momento tão especial e tratou a todos como sendo parte the sua familia também!<br>
+            
+            Que Deus continue te abençoando cada vez mais e recompensando sempre!<br>
+            
+            E para as noivas que como eu fazem questão de ter uma excelente fotógrafa de casamento no momento mais especial de sua vida, se precisarem mudar o horário do seu casamento para que a Sandra possa fotografar, mudem! Eu garanto que vocês não irão se arrepender e será extremamente recompensador e gratificante!<br>
+            
+            Um bju grande e mais uma vez, obrigada!”
+            
+            </p>
+            <hr>
+
+            <h2> Depoimento da Laura e José</h2>
+            <p class="texto">
+                Sandra,
+Você foi uma grande surpresa.
+Hoje, Paulo e eu estávamos conversando e elegemos você como o melhor profissional do nosso casamento (tirando a Alê que organizou tudo... risos). Você foi perfeito desde a nossa reunião inicial. Muito profissional, inteligente e carismática.
+No almoço de hoje, tanto os meus pais, quanto os meus sogros fizeram comentário a seu respeito: "Nossa... a fotógrafa estava se divertindo", "Quando eu olhava ele estava no chão, depois tirando foto do alto... ele foi sensacional", "incansável a fotógrafa... vocês estávam no Joakins as 6h da manhã e ela super na boa... como se fosse às 18h da tarde".
+Enfim, tudo isso para agradecer de coração por ter feito parte do dia mais feliz de nossas vidas. Ou melhor, por ter registrado todos esses momentos inesquecíveis.
+Estamos ansiosos pelas fotos! :
+Beijos,
+            </p>
+    </section>
+    <hr>
+
+    <section id="Contato">
+        <div class="container">
+            <div class="contato">
+                <h2>Contato</h2>
+                <p class="texto">Email: sandraaraujo@gmail.com</p>
+                <p class="texto">Endereço: Avenida Paulista, edifico Paradise,sala 34</p>
+                <p class="texto">Telefone: (34) 997834545 </p>
+            </div>
+        <div class="formulario">
+         <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+
+     </section> 
+     <footer>
+        <p class="texto">&copy; 2023 Sandra Araujo Fotografia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
