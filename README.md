@@ -1,2 +1,2 @@
 # CriandoSite
-Criando um site, trabalho da Faculdade
+Crie um site simples para o trabalho da Faculdade.
